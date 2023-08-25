@@ -1,0 +1,1 @@
+# Multidimensional-Poverty-Index-Computation-with-STATA
