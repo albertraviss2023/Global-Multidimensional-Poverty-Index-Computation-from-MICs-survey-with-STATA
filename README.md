@@ -2,7 +2,7 @@
 The goal of this project is to compute deprivation variables for the multi-dimensional poverty indices(MPI)  and also help in the measurement of multi-dimensional poverty indices(MPI) at the national level and across specific regions of a particular country.
 
 ## General instructions:
-This Code Project provides the code to merge the relevant datasets, recode data, and compute deprivation indicators, in addition to the computation of multi-dimensional poverty indices(MPI). The code is organized into 2 .do files in the parent folder The first file is for the computation of deprivations and the second file is for the estimation of MPI Indices. The two files have to be run after the correct working directories have been set.   
+This Code Project provides the code to merge the relevant datasets, recode data, and compute deprivation indicators, in addition to the computation of multi-dimensional poverty indices(MPI). The code is organized into 2 .do files in the parent folder The first file is for the computation of deprivations and the second file is for the estimation of MPI Indices. The two files have to be run after the correct working directories have been set.  The sample data used for this project is MICS Afghanistan 2010/11. 
 
 ## Main files:
 The parent folder contains 2 Main .do script Files from which the user can run all the code at once (.do) to perform the computations. The user needs to set the paths in the data File files correctly. 
