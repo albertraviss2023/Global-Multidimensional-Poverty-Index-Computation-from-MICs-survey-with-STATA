@@ -1,17 +1,22 @@
+/******************************************************************************
+	Purpose: Estimating the Global Multi-dimensional Poverty Index (MPI). 
+	Data input: The model datasets are found in MICS Afghanistan 2011. 
+        This code estimates MPI for Single Country for Single year estimations.
+        Authored by: Albert Lutakome
+	Date Last Modified: August 29, 2023 by Albert Lutakome
+        Credits to: Dr Nicolai Suppa,OPHI.
+
+Notes/Instructions:
+To run this code, the dataset for deprivations has to be loaded and the mpitb package
+has to be installed and make sure to set survey design parameters accordingly. 
+*******************************************************************************/
+
 ssc install mpitb
-
-*************ESTIMATION*******************************************
-******************************************************************
-
-******************************************************************
-*** Singoe Country for Single year estimation
-******************************************************************
 
 ***Step 1: Accessing the dataset and setting survy parameters. 
 *******************************************************************
 use "$path_out/afg_mics10-11.dta", clear
 sum
-
 svyset psu[pw=weight],strata(strata) singleunit(centered)
 
 *** Step 2: Setting Indicators and deprivations 
