@@ -1,11 +1,19 @@
+/******************************************************************************
+	Purpose: Computing the deprivations to be used for the estimation of 
+        the Global Multi-dimensional Poverty Index (MPI). 
+	Data input: The model datasets are found in MICS Afghanistan 2011. 
+	Date Last Modified: August 29, 2023 by Albert Lutakome
+        Credits to: Oxford Poverty & Human Development Initiative (OPHI)
 
+Notes/Instructions:
+*******************************************************************************/
 clear all 
 set more off
 set maxvar 100000
 
 
 *** Working Folder Path ***
-global path_in "C:\Users\alber\OneDrive\Documents\Indices\MPI" 
+global path_in "..\Documents\Indices\MPI" 
 global path_out "cdta"
 // global path_out "$path_in\DTA"
 	
