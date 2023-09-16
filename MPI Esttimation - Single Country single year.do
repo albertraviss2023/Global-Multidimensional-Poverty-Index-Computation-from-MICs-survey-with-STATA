@@ -10,6 +10,7 @@ Notes/Instructions:
 To run this code, the dataset for deprivations has to be loaded and the mpitb package
 has to be installed and make sure to set survey design parameters accordingly. 
 *******************************************************************************/
+do "MPI_deprivation_computation_mics.do"
 
 ssc install mpitb
 
